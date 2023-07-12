@@ -64,7 +64,7 @@ def make_results():
     macro_call = f"%create_polynomial(degree={polynomial_degree})"
 
     # read the contents of the file to get the existing macro
-    with open('/Users/davydsadovskyy/macro.txt', 'r') as f:
+    with open('macro.txt', 'r') as f:
         macro_code = f.read()
 
     # concatenate the existing macro and macro_call
